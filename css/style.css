@@ -75,3 +75,83 @@ section{
 .btn:hover{
   background: #06ac4e;
 }
+
+
+/*productos*/
+.products-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(280px,auto));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.products-container .box{
+  position: relative;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+}
+
+/*-----footer de las cards-------*/
+div.card-footer{
+  background-color: #d6ecad;
+}
+
+/*-----estrellas-------*/
+
+.bi-star-fill{
+  color: #e3d810;
+}
+
+/*-----direccion, horario, telefono-------*/
+div.container{
+  margin-right: 20px;
+}
+
+.bi-clock{
+  color:#d6ecad;
+}
+
+.bi-geo-alt-fill{
+  color:#d6ecad;
+}
+
+.bi-telephone-plus{
+  color:#d6ecad;
+}
+
+/*color de los <li> puntos del footer*/
+li{
+  color: #d6ecad;
+}
+
+
+
+
+
+
+/*footer*/
+footer{
+  position: relative;
+  padding: 50px 0px 0px;
+  background: #d6ecad;
+}
+
+footer .copy-right{
+  
+}
+
+.copyright{
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.copyright{
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
